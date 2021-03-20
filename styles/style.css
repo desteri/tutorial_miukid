@@ -896,3 +896,139 @@ p:hover .fa-chevron-circle-right {
     margin-left: -12px;
     padding: 0;
 }
+
+/* mobile adaptive */
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: auto;
+    }
+
+    .list_product {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .product {
+        margin-right: 34px;
+    }
+
+    .list_product > .product:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .top_menu, .middle_menu p {
+        font-size: 12px;
+    }
+
+    .form {
+        margin-top: 10px;
+        margin-left: 38px;
+        padding: 5px 0;
+    }
+
+    .f_ttl {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 812px) {
+    .top_menu .left, 
+    .hover_menu,
+    .middle_menu .left {
+        display: none;
+    }
+    
+    .list_product > .product:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .list_product > .product:nth-child(4n) {
+        margin-right: 30px;
+    }
+
+    .product {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top_menu, .middle_menu p {
+        font-size: 10px;
+    }
+
+    .top_menu .right {
+        float: none;
+    }
+
+    .middle_menu img {
+        width: 80px;
+    }
+    
+    .middle_menu .ul_li > li:nth-child(3),
+    .middle_menu .ul_li > li:nth-child(4) {
+        display: none;
+    }
+
+    .middle_menu li {
+        padding-top: 0;
+    }
+
+    .form {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .form input {
+        width: 140px;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .form button {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .bottom__right {
+        padding-bottom: 10px;
+    }
+
+    .block_bottom {
+        padding-right: 15px;
+    }
+
+    .block__info_bottom h4, .ttl {
+        font-size: 12px;
+    }
+
+    .block__info_bottom p {
+        font-size: 10px;
+    }
+
+    .block__icon_bottom {
+        width: 35px;
+        height: 35px;
+    }
+
+    .product {
+        margin-right: 0;
+        width: 45%;
+    }
+
+    .product img {
+        width: 100%;
+    }
+
+    .list_product {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .list_product > .product:nth-child(4n) {
+        margin-right: 0;
+    }
+}
